@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		543C96BA18FD944600D1BFE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543C96B918FD944600D1BFE1 /* Foundation.framework */; };
+		543C96BC18FD944600D1BFE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543C96BB18FD944600D1BFE1 /* CoreGraphics.framework */; };
+		543C96BE18FD944600D1BFE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543C96BD18FD944600D1BFE1 /* UIKit.framework */; };
+		543C96C418FD944600D1BFE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 543C96C218FD944600D1BFE1 /* InfoPlist.strings */; };
+		543C96C618FD944600D1BFE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C96C518FD944600D1BFE1 /* main.m */; };
+		543C96CA18FD944600D1BFE1 /* BIGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C96C918FD944600D1BFE1 /* BIGAppDelegate.m */; };
+		543C96CD18FD944600D1BFE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543C96CB18FD944600D1BFE1 /* Main.storyboard */; };
+		543C96D018FD944600D1BFE1 /* BIGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C96CF18FD944600D1BFE1 /* BIGViewController.m */; };
+		543C96D218FD944600D1BFE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543C96D118FD944600D1BFE1 /* Images.xcassets */; };
+		543C96D918FD944600D1BFE1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543C96D818FD944600D1BFE1 /* XCTest.framework */; };
+		543C96DA18FD944600D1BFE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543C96B918FD944600D1BFE1 /* Foundation.framework */; };
+		543C96DB18FD944600D1BFE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543C96BD18FD944600D1BFE1 /* UIKit.framework */; };
+		543C96E318FD944600D1BFE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 543C96E118FD944600D1BFE1 /* InfoPlist.strings */; };
+		543C96E518FD944600D1BFE1 /* MimicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C96E418FD944600D1BFE1 /* MimicTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		543C96DC18FD944600D1BFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543C96AE18FD944600D1BFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543C96B518FD944600D1BFE1;
+			remoteInfo = Mimic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		543C96B618FD944600D1BFE1 /* Mimic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mimic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		543C96B918FD944600D1BFE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		543C96BB18FD944600D1BFE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		543C96BD18FD944600D1BFE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		543C96C118FD944600D1BFE1 /* Mimic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mimic-Info.plist"; sourceTree = "<group>"; };
+		543C96C318FD944600D1BFE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		543C96C518FD944600D1BFE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		543C96C718FD944600D1BFE1 /* Mimic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mimic-Prefix.pch"; sourceTree = "<group>"; };
+		543C96C818FD944600D1BFE1 /* BIGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIGAppDelegate.h; sourceTree = "<group>"; };
+		543C96C918FD944600D1BFE1 /* BIGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIGAppDelegate.m; sourceTree = "<group>"; };
+		543C96CC18FD944600D1BFE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		543C96CE18FD944600D1BFE1 /* BIGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIGViewController.h; sourceTree = "<group>"; };
+		543C96CF18FD944600D1BFE1 /* BIGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIGViewController.m; sourceTree = "<group>"; };
+		543C96D118FD944600D1BFE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		543C96D718FD944600D1BFE1 /* MimicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MimicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		543C96D818FD944600D1BFE1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		543C96E018FD944600D1BFE1 /* MimicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MimicTests-Info.plist"; sourceTree = "<group>"; };
+		543C96E218FD944600D1BFE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		543C96E418FD944600D1BFE1 /* MimicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MimicTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		543C96B318FD944600D1BFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543C96BC18FD944600D1BFE1 /* CoreGraphics.framework in Frameworks */,
+				543C96BE18FD944600D1BFE1 /* UIKit.framework in Frameworks */,
+				543C96BA18FD944600D1BFE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543C96D418FD944600D1BFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543C96D918FD944600D1BFE1 /* XCTest.framework in Frameworks */,
+				543C96DB18FD944600D1BFE1 /* UIKit.framework in Frameworks */,
+				543C96DA18FD944600D1BFE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		543C96AD18FD944600D1BFE1 = {
+			isa = PBXGroup;
+			children = (
+				543C96BF18FD944600D1BFE1 /* Mimic */,
+				543C96DE18FD944600D1BFE1 /* MimicTests */,
+				543C96B818FD944600D1BFE1 /* Frameworks */,
+				543C96B718FD944600D1BFE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		543C96B718FD944600D1BFE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				543C96B618FD944600D1BFE1 /* Mimic.app */,
+				543C96D718FD944600D1BFE1 /* MimicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		543C96B818FD944600D1BFE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				543C96B918FD944600D1BFE1 /* Foundation.framework */,
+				543C96BB18FD944600D1BFE1 /* CoreGraphics.framework */,
+				543C96BD18FD944600D1BFE1 /* UIKit.framework */,
+				543C96D818FD944600D1BFE1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		543C96BF18FD944600D1BFE1 /* Mimic */ = {
+			isa = PBXGroup;
+			children = (
+				543C96C818FD944600D1BFE1 /* BIGAppDelegate.h */,
+				543C96C918FD944600D1BFE1 /* BIGAppDelegate.m */,
+				543C96CB18FD944600D1BFE1 /* Main.storyboard */,
+				543C96CE18FD944600D1BFE1 /* BIGViewController.h */,
+				543C96CF18FD944600D1BFE1 /* BIGViewController.m */,
+				543C96D118FD944600D1BFE1 /* Images.xcassets */,
+				543C96C018FD944600D1BFE1 /* Supporting Files */,
+			);
+			path = Mimic;
+			sourceTree = "<group>";
+		};
+		543C96C018FD944600D1BFE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				543C96C118FD944600D1BFE1 /* Mimic-Info.plist */,
+				543C96C218FD944600D1BFE1 /* InfoPlist.strings */,
+				543C96C518FD944600D1BFE1 /* main.m */,
+				543C96C718FD944600D1BFE1 /* Mimic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		543C96DE18FD944600D1BFE1 /* MimicTests */ = {
+			isa = PBXGroup;
+			children = (
+				543C96E418FD944600D1BFE1 /* MimicTests.m */,
+				543C96DF18FD944600D1BFE1 /* Supporting Files */,
+			);
+			path = MimicTests;
+			sourceTree = "<group>";
+		};
+		543C96DF18FD944600D1BFE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				543C96E018FD944600D1BFE1 /* MimicTests-Info.plist */,
+				543C96E118FD944600D1BFE1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		543C96B518FD944600D1BFE1 /* Mimic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543C96E818FD944600D1BFE1 /* Build configuration list for PBXNativeTarget "Mimic" */;
+			buildPhases = (
+				543C96B218FD944600D1BFE1 /* Sources */,
+				543C96B318FD944600D1BFE1 /* Frameworks */,
+				543C96B418FD944600D1BFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mimic;
+			productName = Mimic;
+			productReference = 543C96B618FD944600D1BFE1 /* Mimic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		543C96D618FD944600D1BFE1 /* MimicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543C96EB18FD944600D1BFE1 /* Build configuration list for PBXNativeTarget "MimicTests" */;
+			buildPhases = (
+				543C96D318FD944600D1BFE1 /* Sources */,
+				543C96D418FD944600D1BFE1 /* Frameworks */,
+				543C96D518FD944600D1BFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543C96DD18FD944600D1BFE1 /* PBXTargetDependency */,
+			);
+			name = MimicTests;
+			productName = MimicTests;
+			productReference = 543C96D718FD944600D1BFE1 /* MimicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		543C96AE18FD944600D1BFE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BIG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Big Chicken";
+				TargetAttributes = {
+					543C96D618FD944600D1BFE1 = {
+						TestTargetID = 543C96B518FD944600D1BFE1;
+					};
+				};
+			};
+			buildConfigurationList = 543C96B118FD944600D1BFE1 /* Build configuration list for PBXProject "Mimic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 543C96AD18FD944600D1BFE1;
+			productRefGroup = 543C96B718FD944600D1BFE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				543C96B518FD944600D1BFE1 /* Mimic */,
+				543C96D618FD944600D1BFE1 /* MimicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		543C96B418FD944600D1BFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543C96D218FD944600D1BFE1 /* Images.xcassets in Resources */,
+				543C96C418FD944600D1BFE1 /* InfoPlist.strings in Resources */,
+				543C96CD18FD944600D1BFE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543C96D518FD944600D1BFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543C96E318FD944600D1BFE1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		543C96B218FD944600D1BFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543C96C618FD944600D1BFE1 /* main.m in Sources */,
+				543C96D018FD944600D1BFE1 /* BIGViewController.m in Sources */,
+				543C96CA18FD944600D1BFE1 /* BIGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543C96D318FD944600D1BFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543C96E518FD944600D1BFE1 /* MimicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		543C96DD18FD944600D1BFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543C96B518FD944600D1BFE1 /* Mimic */;
+			targetProxy = 543C96DC18FD944600D1BFE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		543C96C218FD944600D1BFE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				543C96C318FD944600D1BFE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		543C96CB18FD944600D1BFE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				543C96CC18FD944600D1BFE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		543C96E118FD944600D1BFE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				543C96E218FD944600D1BFE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		543C96E618FD944600D1BFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		543C96E718FD944600D1BFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		543C96E918FD944600D1BFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mimic/Mimic-Prefix.pch";
+				INFOPLIST_FILE = "Mimic/Mimic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		543C96EA18FD944600D1BFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mimic/Mimic-Prefix.pch";
+				INFOPLIST_FILE = "Mimic/Mimic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		543C96EC18FD944600D1BFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mimic.app/Mimic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mimic/Mimic-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MimicTests/MimicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		543C96ED18FD944600D1BFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mimic.app/Mimic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mimic/Mimic-Prefix.pch";
+				INFOPLIST_FILE = "MimicTests/MimicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		543C96B118FD944600D1BFE1 /* Build configuration list for PBXProject "Mimic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543C96E618FD944600D1BFE1 /* Debug */,
+				543C96E718FD944600D1BFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543C96E818FD944600D1BFE1 /* Build configuration list for PBXNativeTarget "Mimic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543C96E918FD944600D1BFE1 /* Debug */,
+				543C96EA18FD944600D1BFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		543C96EB18FD944600D1BFE1 /* Build configuration list for PBXNativeTarget "MimicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543C96EC18FD944600D1BFE1 /* Debug */,
+				543C96ED18FD944600D1BFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 543C96AE18FD944600D1BFE1 /* Project object */;
+}
