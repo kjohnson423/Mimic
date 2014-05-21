@@ -457,6 +457,7 @@
 				543C96EA18FD944600D1BFE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		543C96EB18FD944600D1BFE1 /* Build configuration list for PBXNativeTarget "MimicTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				543C96ED18FD944600D1BFE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

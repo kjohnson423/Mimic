@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface BIGViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *labelMimic;
+@property (strong, nonatomic) NSArray *words;
 
 @end
