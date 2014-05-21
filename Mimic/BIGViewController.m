@@ -20,12 +20,12 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     self.words = [[NSArray alloc] initWithObjects:
-                  @"Really Original...",
-                  @"You are so Creative...",
-                  @"Seriously?",
-                  @"Kinda Pathetic",
-                  @"This is Embarrasing",
-                  @"These Aren't Even Funny", nil];
+                  @"I'm Changing These",
+                  @"Just to mess around",
+                  @"Need to figure out how to work this",
+                  @"Since I just deleted my whole other project",
+                  @"Whoops",
+                  @"That was unfortunate", nil];
 }
 
 - (void)didReceiveMemoryWarning
